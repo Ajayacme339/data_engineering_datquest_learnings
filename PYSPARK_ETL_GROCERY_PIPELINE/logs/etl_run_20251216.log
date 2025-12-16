@@ -1,0 +1,83 @@
+2025-12-16 01:12:58,821 - INFO - Starting Grocery ETL Pipeline
+2025-12-16 01:12:59,179 - INFO - NumExpr defaulting to 16 threads.
+2025-12-16 01:13:05,492 - INFO - Spark session created
+2025-12-16 01:13:05,493 - ERROR - Pipeline failed: name 'extract_all_data' is not defined
+2025-12-16 01:13:05,494 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ajaya\Downloads\PYSPARK_ETL_GROCERY_PIPELINE\main2.py", line 44, in main
+    raw_df = extract_all_data(spark)
+             ^^^^^^^^^^^^^^^^
+NameError: name 'extract_all_data' is not defined. Did you mean: 'extract_sales_data'?
+
+2025-12-16 01:13:05,735 - INFO - Spark session closed
+2025-12-16 01:13:05,737 - INFO - Closing down clientserver connection
+2025-12-16 01:14:53,622 - INFO - Starting Grocery ETL Pipeline
+2025-12-16 01:14:53,894 - INFO - NumExpr defaulting to 16 threads.
+2025-12-16 01:14:59,886 - INFO - Spark session created
+2025-12-16 01:14:59,887 - ERROR - Pipeline failed: name 'extract_all_data' is not defined
+2025-12-16 01:14:59,888 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ajaya\Downloads\PYSPARK_ETL_GROCERY_PIPELINE\main2.py", line 44, in main
+    raw_df = extract_all_data(spark)
+             ^^^^^^^^^^^^^^^^
+NameError: name 'extract_all_data' is not defined. Did you mean: 'extract_sales_data'?
+
+2025-12-16 01:15:00,298 - INFO - Spark session closed
+2025-12-16 01:15:00,300 - INFO - Closing down clientserver connection
+2025-12-16 01:16:00,551 - INFO - Starting Grocery ETL Pipeline
+2025-12-16 01:16:00,851 - INFO - NumExpr defaulting to 16 threads.
+2025-12-16 01:16:07,206 - INFO - Spark session created
+2025-12-16 01:16:07,206 - ERROR - Pipeline failed: name 'extract_all_data' is not defined
+2025-12-16 01:16:07,207 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ajaya\Downloads\PYSPARK_ETL_GROCERY_PIPELINE\main2.py", line 44, in main
+    raw_df = extract_all_data(spark)
+             ^^^^^^^^^^^^^^^^
+NameError: name 'extract_all_data' is not defined. Did you mean: 'extract_sales_data'?
+
+2025-12-16 01:16:07,398 - INFO - Spark session closed
+2025-12-16 01:16:07,400 - INFO - Closing down clientserver connection
+2025-12-16 01:25:32,313 - INFO - Starting Grocery ETL Pipeline
+2025-12-16 01:25:32,644 - INFO - NumExpr defaulting to 16 threads.
+2025-12-16 01:25:38,937 - INFO - Spark session created
+2025-12-16 01:25:38,937 - ERROR - Pipeline failed: name 'extract_all_data' is not defined
+2025-12-16 01:25:38,938 - ERROR - Traceback (most recent call last):
+  File "C:\Users\ajaya\Downloads\PYSPARK_ETL_GROCERY_PIPELINE\main2.py", line 44, in main
+    raw_df = extract_all_data(spark)
+             ^^^^^^^^^^^^^^^^
+NameError: name 'extract_all_data' is not defined. Did you mean: 'extract_sales_data'?
+
+2025-12-16 01:25:39,384 - INFO - Spark session closed
+2025-12-16 01:25:39,387 - INFO - Closing down clientserver connection
+2025-12-16 01:31:26,235 - INFO - Starting Grocery ETL Pipeline
+2025-12-16 01:31:26,580 - INFO - NumExpr defaulting to 16 threads.
+2025-12-16 01:31:32,646 - INFO - Spark session created
+2025-12-16 01:31:32,646 - INFO - Reading sales data from data/raw/online_orders.csv
+2025-12-16 01:31:37,965 - INFO - Found 28 total records
+2025-12-16 01:31:37,965 - INFO - Reading sales data from data/raw/store_orders.csv
+2025-12-16 01:31:38,200 - INFO - Found 28 total records
+2025-12-16 01:31:38,201 - INFO - Reading sales data from data/raw/mobile_orders.csv
+2025-12-16 01:31:38,522 - INFO - Found 29 total records
+2025-12-16 01:31:39,300 - INFO - Combined dataset has 85 orders
+2025-12-16 01:31:39,676 - INFO - Extracted 85 raw records
+2025-12-16 01:31:39,676 - INFO - Starting data transformation...
+2025-12-16 01:31:42,810 - WARNING - Found 1 orders with suspicious prices
+2025-12-16 01:31:46,796 - INFO - Removed 7 test/invalid orders
+2025-12-16 01:31:49,313 - INFO - Removed 3 duplicate orders
+2025-12-16 01:31:50,235 - INFO - Transformation complete. Final record count: 75
+2025-12-16 01:31:51,029 - INFO - Transformed to 75 clean records
+2025-12-16 01:31:51,673 - INFO - Writing 75 records to data/processed/orders
+2025-12-16 01:31:54,070 - INFO - Successfully wrote 75 records
+2025-12-16 01:31:54,071 - INFO - Output location: data/processed/orders/orders.csv
+2025-12-16 01:31:55,248 - INFO - Sanity check - Total orders: 75
+2025-12-16 01:31:55,783 - INFO - Date range: 2024-10-15 to 2024-11-10
+2025-12-16 01:32:00,775 - INFO - 
+=== ETL Summary Report ===
+2025-12-16 01:32:00,775 - INFO - total_orders: 75
+2025-12-16 01:32:00,776 - INFO - unique_customers: 53
+2025-12-16 01:32:00,776 - INFO - unique_products: 74
+2025-12-16 01:32:00,776 - INFO - total_revenue: 667.8700000000003
+2025-12-16 01:32:00,776 - INFO - date_range: 2024-10-15 to 2024-11-10
+2025-12-16 01:32:00,776 - INFO - regions: 4
+2025-12-16 01:32:00,776 - INFO - ========================
+
+2025-12-16 01:32:00,776 - INFO - Pipeline completed successfully in 34.54 seconds
+2025-12-16 01:32:01,058 - INFO - Spark session closed
+2025-12-16 01:32:01,059 - INFO - Closing down clientserver connection
